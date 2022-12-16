@@ -3,13 +3,13 @@ package com.covide.service;
 import java.util.List;
 
 import com.covid.exception.VaccineCenterException;
-import com.covid.model.VaccinetionCenter;
+import com.covid.model.VaccinationCenter;
 
 public interface VaccinationCenterService {
 
-	public List<VaccinetionCenter> getVaccineCenter();
-	public VaccinetionCenter getVaccinetionCenter(Integer centerid) throws VaccineCenterException;
-	public VaccinetionCenter addVaccinetionCenter(VaccinetionCenter center);
-	public VaccinetionCenter updateVaccinetionCenter(VaccinetionCenter center) throws VaccineCenterException;
-	public boolean deleteVaccinetonCenter(VaccinetionCenter center) throws VaccineCenterException;
+	public List<VaccinationCenter> getVaccineCenter();
+	public VaccinationCenter getVaccinetionCenter(Integer centerid) throws VaccineCenterException;
+	public VaccinationCenter addVaccinetionCenter(VaccinationCenter center);
+	public VaccinationCenter updateVaccinetionCenter(VaccinationCenter center) throws VaccineCenterException;
+	public boolean deleteVaccinetonCenter(VaccinationCenter center) throws VaccineCenterException;
 }

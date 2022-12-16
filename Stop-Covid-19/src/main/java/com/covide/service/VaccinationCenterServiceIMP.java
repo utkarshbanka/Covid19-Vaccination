@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.covid.exception.VaccineCenterException;
-import com.covid.model.VaccinetionCenter;
+import com.covid.model.VaccinationCenter;
 import com.covid.repository.VaccineCenterDAO;
 
 @Service
@@ -16,31 +16,31 @@ public class VaccinationCenterServiceIMP implements VaccinationCenterService{
 	private VaccineCenterDAO vcdao;
 
 	@Override
-	public List<VaccinetionCenter> getVaccineCenter() {
+	public List<VaccinationCenter> getVaccineCenter() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public VaccinetionCenter getVaccinetionCenter(Integer centerid) throws VaccineCenterException {
+	public VaccinationCenter getVaccinetionCenter(Integer centerid) throws VaccineCenterException {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public VaccinetionCenter addVaccinetionCenter(VaccinetionCenter center) {
+	public VaccinationCenter addVaccinetionCenter(VaccinationCenter center) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public VaccinetionCenter updateVaccinetionCenter(VaccinetionCenter center) throws VaccineCenterException {
+	public VaccinationCenter updateVaccinetionCenter(VaccinationCenter center) throws VaccineCenterException {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public boolean deleteVaccinetonCenter(VaccinetionCenter center) throws VaccineCenterException {
+	public boolean deleteVaccinetonCenter(VaccinationCenter center) throws VaccineCenterException {
 		// TODO Auto-generated method stub
 		return false;
 	}
