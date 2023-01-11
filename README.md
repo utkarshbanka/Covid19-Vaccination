@@ -2,7 +2,8 @@
 
 # Automated Student's Courses Registration  using JAVA , STS , JDBC , MYSQL.(console base project)
 
-![TABLES](https://user-images.githubusercontent.com/105929244/201478384-3134e0e0-1b7b-4603-a56d-bd122f52ce38.JPG)
+![image](https://user-images.githubusercontent.com/105929244/211834973-dd1caf72-f250-4e1c-8de7-954fab05892a.png)
+
 This is table relationship use in project. 
 
 .
